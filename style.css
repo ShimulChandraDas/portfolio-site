@@ -1,0 +1,73 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+p{
+    text-align: justify;
+}
+h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+.focus{
+    color: tomato;
+}
+.mission{
+    color: orange;
+}
+.flexible-area{
+    display: flex;
+    justify-content: space-around;
+}
+.half-width{
+    width: 50%;
+    padding: 5px;
+}
+.half-width img{
+    width: 40%;
+}
+.link-button{
+    text-decoration: none;
+    background-color: green;
+    padding:10px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+}
+.MVG{
+    text-align: center;
+    margin: 100px;
+}
+img{
+    width: 100%;
+}
+.miss{
+    width: 250px;
+    border: 1px solid gray;
+    box-shadow: 4px 4px 12px gray;
+    border-radius: 2px;
+}
+.DWL{
+    width: 100%;
+    padding: 5px;  
+}
+
+
+.left-banner{
+    background-image: url(shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+
+}
+.right-banner{
+    background-image: url(shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.foot-note{
+    text-align: center;
+    background-color: rgba(5, 75, 15, 0.336);
+}
