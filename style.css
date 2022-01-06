@@ -3,11 +3,16 @@ body{
     font-family: 'Quicksand', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Slab', serif;
-    margin: 0;
+    margin: 25px 25px;
     padding: 10px 20px 0 20px;
+}
+.heading-border{
+    border-left: 5px solid rgba(93, 241, 6, 0.733) ;
+    padding-left: 10px;
 }
 p{
     text-align: justify;
+    margin-bottom: 25px;
 }
 h1{
     font-size: 50px;
@@ -15,20 +20,28 @@ h1{
 }
 .focus{
     color: tomato;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 .mission{
     color: orange;
+    margin-top: 0;
+    
 }
 .flexible-area{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0 50px;
+   
+
 }
 .half-width{
-    width: 50%;
+    width: 40%;
     padding: 5px;
 }
 .half-width img{
-    width: 40%;
+    width: 60%;
+    
 }
 .link-button{
     text-decoration: none;
@@ -37,40 +50,99 @@ h1{
     border-radius: 5px;
     color: white;
     font-weight: 900;
+    margin-bottom: 25px;
 }
 .MVG{
     text-align: center;
-    margin: 100px;
+    margin-bottom: 150px;
+    
 }
-img{
-    width: 100%;
+.miss img{
+    width: 30%;
+    
 }
 .miss{
-    width: 250px;
+    text-align: left;
+    width: 30%;
     border: 1px solid gray;
     box-shadow: 4px 4px 12px gray;
-    border-radius: 2px;
+    border-radius: 5%;
+    padding: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.mission-area{
+    background-color: darkseagreen;
+}
+.vission-area{
+    background-color: deepskyblue;
+}
+.goal-area{
+    background-color: #b9fa06;
 }
 .DWL{
-    width: 100%;
-    padding: 5px;  
-}
-
-
-.left-banner{
-    background-image: url(shapes/shape-1.png);
-    background-repeat: no-repeat;
-    background-position: left;
+    display: flex;
+    margin: 25px 25px;
     
+}
+.DWL img{
+    padding-right: 20%;
+    padding-left: 20%;
+}
+ .third-sec{
+     width: 30% 70%;
+ }   
+ .appu{
+     width: 40%;
+     
+ }
+.forth-sec{
+    margin-top: 250px;
+    
+}
+.third-sec{
+    width: 30% 70%;
+}
 
-}
-.right-banner{
-    background-image: url(shapes/shape-1.png);
+.latest-work-section{
+    padding-left: 3%;
+    text-align: center;
+    background-image: url('../images/latest-work-bg.png');
     background-repeat: no-repeat;
-    background-position: right;
+    background-size: 1350px;
+    height: 480px;
 }
+.latest-work-section h1{
+    display: inline-block;
+    color: #e74c3c;
+    font-size: 50px;
+    border-bottom: 3px solid;
+    border-image: linear-gradient(rgb(177, 29, 41),red);
+    border-image-slice: 1;
+    padding-bottom: 5px;
+    text-shadow: 3px 3px 4px #130f40;
+}
+.work-box{
+    width: 25%;
+    height: 300px;
+    float: left;
+    margin-right: 3%;
+    transition: all .4s ease;
+}
+.work-box img{
+    width: 100%;
+    transition-timing-function: ease-in-out;
+}
+
 .foot-note{
     text-align: center;
     background-color: rgba(5, 75, 15, 0.336);
     padding-bottom: 0;
+    font-style: italic;
+    margin-top: 200px;
+}
+footer h2 h5 h6{
+    margin-top: 20px;
+    
 }
